@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Umbraco.Search">
+      <HintPath>..\..\..\Umbraco-CMS\src\Umbraco.Search\bin\Debug\net8.0\Umbraco.Search.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

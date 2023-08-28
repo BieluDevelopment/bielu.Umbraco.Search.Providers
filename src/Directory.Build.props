@@ -1,0 +1,15 @@
+<Project>
+
+  <Import Project="../version.props"/>
+  <PropertyGroup>
+    <Title>$(MSBuildProjectName)</Title>
+    <IsPackable>true</IsPackable>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Arkadiusz Biel (bielu)</Authors>
+    <PackageOutputPath>$(MSBuildProjectDirectory)/../../dist</PackageOutputPath>
+  </PropertyGroup>
+</Project>
